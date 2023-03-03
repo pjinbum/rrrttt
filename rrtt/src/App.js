@@ -139,9 +139,10 @@ function App() {
 
         <button onClick={()=>{
           let cocopy = [...list]
-          cocopy[0] = '503'
-          cocopy[1] = '502'
-          cocopy[2] = '501'
+          cocopy.sort()
+          // cocopy[0] = '503'
+          // cocopy[1] = '502'
+          // cocopy[2] = '501'
           settitle(cocopy)
         }}
         >글정렬</button>
